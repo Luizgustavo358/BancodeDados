@@ -5,7 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.luizgbraganca.bancodedados.AddLivroActivity">
+    tools:context="com.luizgbraganca.bancodedados.AddLivroActivity"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/books" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15" />
 
     <EditText
         android:id="@+id/edtNome"
@@ -30,6 +47,11 @@
         android:ems="10"
         android:hint="@string/ano"
         android:inputType="number" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11" />
 
     <Button
         android:id="@+id/btnAddLivro"
