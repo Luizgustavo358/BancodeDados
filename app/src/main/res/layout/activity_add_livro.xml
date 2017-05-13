@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nome do Livro"
+        android:hint="@string/nome_livro"
         android:inputType="textPersonName" />
 
     <EditText
@@ -20,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Autor do Livro"
+        android:hint="@string/autor"
         android:inputType="textPersonName" />
 
     <EditText
@@ -28,12 +28,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Ano do Livro"
+        android:hint="@string/ano"
         android:inputType="number" />
 
     <Button
         android:id="@+id/btnAddLivro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Adicionar" />
+        android:text="@string/adicionar" />
 </LinearLayout>
