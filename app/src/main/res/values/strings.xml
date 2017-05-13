@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Banco de Dados</string>
     <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="lista_de_livros">Lista de Livros</string>
 </resources>

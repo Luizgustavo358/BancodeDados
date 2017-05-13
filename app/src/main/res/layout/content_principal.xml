@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="13dp"
-        android:text="Lista de Livros"
+        android:text="@string/lista_de_livros"
         android:textColor="@android:color/black"
         android:textSize="26sp"
         tools:layout_editor_absoluteX="161dp"
